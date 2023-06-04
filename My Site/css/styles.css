@@ -1,0 +1,176 @@
+
+/* HTML TAGS */
+
+body {
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+    text-align: center;
+    margin: 0;
+
+}
+
+
+hr {
+    border: dotted #444444 6px;
+    border-bottom: none;
+    width: 2%;
+    margin: 20px auto 20px auto;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: 'Montserrat', serif;
+    color: #444444;
+    line-height: 2;
+    margin: 0px;
+    padding-top: 5%;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Montserrat', serif;
+    color: #171717;
+    font-weight: normal;
+    margin: 13px;
+
+}
+
+h3 {
+    font-family: 'Montserrat', serif;
+    color: #171717;
+}
+
+p {
+    margin: 0px;
+    line-height: 2;
+    font-family: 'Montserrat', serif;
+    width: 50%;
+    margin: auto;
+
+
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Montserrat', serif;
+    margin: 10px 20px;
+    color: #EDEDED;
+}
+
+a:hover {
+    color: #DA0037;
+}
+
+
+/* CLASS TAGS */
+
+
+.top-container {
+
+    position: relative;
+
+
+}
+
+
+
+.middle-container {
+    margin: 50px 0px;
+
+}
+
+.bottom-container {
+    background-color: #444444;
+    padding: 50px 0 20px;
+
+}
+
+
+
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+
+.skill-row {
+    width: 100%;
+    margin: 50px auto 60px auto;
+
+}
+
+.subtitle {
+    color: #444444;
+}
+
+.text-link {
+    color: #0B66C2;
+    margin:auto 5px;
+}
+
+.contact-msg {
+    width: 39%;
+    margin: 40px auto 60px;
+}
+
+.copyright {
+    color: #171717;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+/*
+
+clear is like anti-float. this code removes the paragraphs from the float.
+only use float for when its absolutely necessary
+and only for its main purpose - wrapping text around an element.
+
+.code-skill-description {
+    clear: left;
+}
+
+
+.chilli-skill-description {
+    clear: right;
+}
+*/
+
+.btn {
+	background-color:#444444;
+	border-radius:6px;
+	border:1px solid #ebebeb;
+	display:inline-block;
+	cursor:pointer;
+	color:#ededed;
+	font-family: 'Montserrat', serif;
+	font-size:15px;
+	font-weight:bold;
+	padding:8px 19px;
+	text-decoration:none;
+}
+.btn:hover {
+	background-color: #DA0037;
+	color: #EDEDED;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+
